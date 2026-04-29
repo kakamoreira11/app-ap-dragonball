@@ -24,7 +24,7 @@ Este é um projeto acadêmico desenvolvido em **React Native** utilizando a plat
 - **@expo/vector-icons** para ícones
 - **Fetch / Axios** para consumo da API
 
-## 📁 Estrutura de Arquivos (conforme o Snack)
+## 📁 Estrutura de Arquivos
 Project/
 ├── assets/ # Imagens e recursos estáticos
 ├── services/ # Configuração das chamadas da API
