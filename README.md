@@ -1,11 +1,60 @@
-# Sample Snack app
+# 📱 API - App de Consumo de API em React Native
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+## 📌 Sobre o Projeto
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+Este é um projeto acadêmico desenvolvido em **React Native** utilizando a plataforma **Expo Snack**. O aplicativo demonstra o consumo de APIs externas, exibindo os dados em uma lista estilizada com animações e loader de carregamento. Serve como base para estudos de requisições assíncronas, hooks (useState, useEffect) e componentes de listagem no React Native.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## 🎨 Funcionalidades
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+- 🔄 Consumo de dados de uma API externa
+- 📱 Listagem responsiva com **FlatList**
+- ⏳ Indicador de carregamento (**ActivityIndicator**)
+- ✨ Animações suaves com **Animated API**
+- 🎨 Interface com gradientes (**LinearGradient**)
+- 🔍 Ícones vetorizados (**Ionicons**)
+- 📏 Design adaptável (**Dimensions API**)
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+## 🛠️ Tecnologias Utilizadas
+
+- **React Native** (Expo Snack v50–55)
+- **React Hooks** (useState, useEffect, useRef)
+- **FlatList** para renderização eficiente de listas
+- **Animated API** para animações
+- **expo-linear-gradient** para efeitos visuais
+- **@expo/vector-icons** para ícones
+- **Fetch / Axios** para consumo da API
+
+## 📁 Estrutura de Arquivos (conforme o Snack)
+Project/
+├── assets/ # Imagens e recursos estáticos
+├── services/ # Configuração das chamadas da API
+├── App.js # Tela principal (lista + consumo de API)
+├── package.json # Dependências
+└── README.md # Este arquivo
+
+## 🎯 Componentes e Recursos no App.js
+
+O arquivo principal `App.js` implementa:
+
+| Componente | Função |
+|------------|--------|
+| `FlatList` | Exibe a lista de dados da API |
+| `ActivityIndicator` | Mostra loading enquanto os dados são carregados |
+| `Animated` | Cria animações na interface |
+| `LinearGradient` | Aplica gradientes de fundo |
+| `Ionicons` | Adiciona ícones estilizados |
+| `Dimensions` | Adapta o layout ao tamanho da tela |
+
+## 🎨 Cores do Tema
+
+```javascript
+const Colors = {
+  laranja: '#F5A623',
+  laranjaEscuro: '#E67E22',
+  azul: '#3498DB',
+  azulEscuro: '#1E2A3A',
+  roxo: '#9B59B6',
+  vermelho: '#E74C3C',
+  verde: '#2ECC71',
+  amarelo: '#F1C40F'
+}
